@@ -1,38 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Your Name | Personal Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Colorful Webpage</title>
+  
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --text-color: #34495e;
+      --footer-bg: #2c3e50;
+      --footer-text: #ecf0f1;
+    }
+
+    body {
+      background-color: #f0f8ff;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0 2rem;
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(45deg, #ff6f61, #ff9a76);
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    section {
+      margin: 2rem 0;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: #2c3e50;
+    }
+
+    section:nth-of-type(odd) {
+      background: linear-gradient(90deg, #fff3e0, #ffe0b2);
+    }
+
+    section:nth-of-type(even) {
+      background: linear-gradient(90deg, #d0f0fd, #a0e0ff);
+    }
+
+    h2 {
+      color: #e67e22;
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem 0;
+      padding: 1rem 0;
+      background-color: var(--footer-bg);
+      color: var(--footer-text);
+      border-radius: 10px;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #e67e22;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Hi, I'm [Dr P Sreenivasulu]</h1>
-    <p>Material science • Scientist • Dreamer</p>
+    <h1>Welcome to My Colorful Webpage</h1>
+    <p>Bright, modern, and vibrant design!</p>
   </header>
 
-  <section class="about">
+  <section>
     <h2>About Me</h2>
-    <p>A short paragraph about who you are, your background, and what you're passionate about.</p>
+    <p>This section introduces yourself. Add a brief description or your achievements here.</p>
   </section>
 
-  <section class="portfolio">
+  <section>
     <h2>Projects</h2>
-    <ul>
-      <li><strong>Project One:</strong> Description here.</li>
-      <li><strong>Project Two:</strong> Description here.</li>
-    </ul>
+    <p>Showcase your projects, skills, or portfolio in this section. Each section has a colorful gradient background!</p>
   </section>
 
-  <section class="contact">
+  <section>
     <h2>Contact</h2>
-    <p>Email: pcnucer@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+    <p>You can add contact details, social media links, or a form here. Use <a href="#">links</a> for interaction.</p>
   </section>
 
   <footer>
-    <p>© 2025 Your Name</p>
+    &copy; 2025 My Colorful Webpage
   </footer>
+
 </body>
 </html>
